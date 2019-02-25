@@ -1,0 +1,76 @@
+irb(main):001:0> x = :hello
+=> :hello
+irb(main):002:0> y = "hello"
+=> "hello"
+irb(main):003:0> y.object_id
+=> 70368666871220
+irb(main):004:0> z = "hellp
+irb(main):005:0" z = "hello
+Traceback (most recent call last):
+        1: from /usr/bin/irb:11:in `<main>'
+SyntaxError ((irb):5: syntax error, unexpected tIDENTIFIER, expecting end-of-input)
+z = "hello
+     ^~~~~
+irb(main):006:0> z.object_id
+Traceback (most recent call last):
+        2: from /usr/bin/irb:11:in `<main>'
+        1: from (irb):6
+NameError (undefined local variable or method `z' for main:Object)
+irb(main):007:0> z = "hello"
+=> "hello"
+irb(main):008:0> z.object_id
+=> 70368666782820
+irb(main):009:0> a = :hello
+=> :hello
+irb(main):010:0> a.object_id
+=> 1280348
+irb(main):011:0> x.object_id
+=> 1280348
+irb(main):012:0> clear
+Traceback (most recent call last):
+        2: from /usr/bin/irb:11:in `<main>'
+        1: from (irb):12
+NameError (undefined local variable or method `clear' for main:Object)
+Did you mean?  caller
+irb(main):013:0> ^C
+irb(main):013:0> quit
+tsaker@MSI:~/projects$ irb
+irb(main):001:0> x = { "one" => "eins" }
+=> {"one"=>"eins"}
+irb(main):002:0> x = { "one" => "eins", "two" => "zwei", "three" => "drei" }
+=> {"one"=>"eins", "two"=>"zwei", "three"=>"drei"}
+irb(main):003:0> german["two"]
+Traceback (most recent call last):
+        2: from /usr/bin/irb:11:in `<main>'
+        1: from (irb):3
+NameError (undefined local variable or method `german' for main:Object)
+irb(main):004:0> german = { "one" => "eins", "two" => "zwei", "three" => "drei" }
+=> {"one"=>"eins", "two"=>"zwei", "three"=>"drei"}
+irb(main):005:0> german["two"]
+=> "zwei"
+irb(main):006:0>
+.
+
+irb(main):001:0> german = { "one" => "eins", "two" => "zwei", "three" => "drei" }
+=> {"one"=>"eins", "two"=>"zwei", "three"=>"drei"}
+irb(main):002:0> for key, val in german
+irb(main):003:1> puts "#{key} is #{val}"
+irb(main):004:1> end
+one is eins
+two is zwei
+three is drei
+=> {"one"=>"eins", "two"=>"zwei", "three"=>"drei"}
+irb(main):005:0> puts "#{key} is #{val}"
+three is drei
+=> nil
+irb(main):006:0> german.each { |key, val| puts "#{key} is #{val}" }
+one is eins
+two is zwei
+three is drei
+=> {"one"=>"eins", "two"=>"zwei", "three"=>"drei"}
+irb(main):007:0> german.each { |en, de| puts "#{en} is #{de}" }
+one is eins
+two is zwei
+three is drei
+=> {"one"=>"eins", "two"=>"zwei", "three"=>"drei"}
+irb(main):008:0>
