@@ -19,7 +19,3 @@
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
-<<<<<<< HEAD:03/README.md
-=======
-* 04_sum_numbers
->>>>>>> ca0498614d1b4bcb2ee50e3189f18e597eb98b3b:README.md
