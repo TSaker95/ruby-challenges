@@ -8,3 +8,5 @@ class LargestNumberTest < Test::Unit::TestCase
     assert_equal(290, sum_numbers([55,23,183,0,29]))
   end
 end
+
+# You have to put in: ruby tests/04_sum_numbers_test.rb
