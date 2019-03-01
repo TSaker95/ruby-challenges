@@ -78,16 +78,16 @@ cocktail = 3
      beer += x
      puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
 
-    elsif order == "beer"   #single
+  elsif order == "beer"   #single
         puts "How much #{order} you after?"
         x = gets.chomp.to_i 
          beer += x
          puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
   
-    elsif order == "no"
+  elsif order == "no"
         break puts "no worries!"
 
-    else order == ""
+  else order == ""
     puts "I think you have had to much! time to stop!"
     break 
   end #ENDS IF STATEMENT
