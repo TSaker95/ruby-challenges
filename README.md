@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 04_sum_numbers
 * 05_in_array
@@ -35,6 +36,8 @@
 =======
 =======
 >>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
+=======
+>>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
@@ -42,10 +45,17 @@
 * 08_count_letters
 * 09_vowels
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
 =======
+=======
+>>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
 * 10_unique
 * 11_fizzbuzz
 * 12_count_words
 * 13_fibonacci
+<<<<<<< HEAD
 >>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
+=======
+* 14_hackerman
+>>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
