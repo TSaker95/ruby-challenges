@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 04_sum_numbers
 * 05_in_array
@@ -37,14 +38,19 @@
 =======
 =======
 >>>>>>> 85cbb7c5afd0b20a011ceed2d9e803213fd2f716
+=======
+>>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
 * 07_included_once
 * 08_count_letters
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7db251037940e1eef793cf520e49867005ffaee3
 =======
+=======
+>>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
 * 09_vowels
 * 10_unique
 * 11_fizzbuzz
@@ -59,4 +65,10 @@
 * 20_descending_numbers
 * 21_sort_numbers
 * 22_exes_ohs
+<<<<<<< HEAD
 >>>>>>> 85cbb7c5afd0b20a011ceed2d9e803213fd2f716
+=======
+* 23_first_non_repeating
+* 24_isogram
+* 25_remove_adjacent_duplicates
+>>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
